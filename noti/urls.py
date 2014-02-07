@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 
-from tastypie.api import api
+from tastypie.api import Api
 from api.resources import NoteResource
 
 v1_api = Api(api_name='v1')

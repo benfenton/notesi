@@ -55,7 +55,7 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'noti.urls'
 
-TEPLATE_DIRS = (
+TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
 
