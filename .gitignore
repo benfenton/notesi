@@ -52,7 +52,7 @@ docs/_build/
 #Heroku
 venv
 *.pyc
-staticfiles
+
 
 #NODE
 node_modules
