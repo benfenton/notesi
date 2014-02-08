@@ -10,4 +10,10 @@ def index(request):
     response = template.render(context)
     return HttpResponse(response)
 
+def test(request):
+    template = loader.get_template('test.html')
+    context = Context()
+    response = template.render(context)
+    return HttpResponse(response)
+
 
