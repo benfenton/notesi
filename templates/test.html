@@ -6,9 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 
     <link rel="stylesheet" type="text/css" href="../static/js/test/lib/css/mocha.css">
+
+    <!-- Javascript Test Libraries -->
     <script src="../static/js/test/lib/js/mocha.js"></script>
     <script src="../static/js/test/lib/js/chai.js"></script>
     <script src="../static/js/test/lib/js/sinon.js"></script>
+
+    <!-- Javascript Core Libraries -->
+    <script src="../static/js/app/lib/lodash.underscore.js"></script>
+    <script src="../static/js/app/lib/jquery.js"></script>
+    <script src="../static/js/app/lib/backbone.js"></script>
+
+    <!-- Javascript Application Libraries -->
+    <script src="../static/js/app/namespace.js"></script>
+    <script src="../static/js/app/models/note.js"></script>
 
     <script>
       // Setup.
@@ -25,5 +36,8 @@
   <body>
     <div id="mocha"></div>
     <script src="../static/js/test/spec/hello.spec.js"></script>
+    <!--<script src="../static/js/test/spec/timing.spec.js"></script>-->
+    <script src="../static/js/test/spec/namespace.spec.js"></script>
+    <script src="../static/js/test/spec/note.spec.js"></script>
   </body>
 </html>
