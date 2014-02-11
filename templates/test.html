@@ -17,14 +17,14 @@
     <script src="../static/js/app/lib/jquery.js"></script>
     <script src="../static/js/app/lib/backbone.js"></script>
 
-    <!-- Javascript Application Libraries -->
+    <!-- Javascript Application Libraries 
     <script src="../static/js/app/namespace.js"></script>
-    <script src="../static/js/app/models/note.js"></script>
+    <script src="../static/js/app/models/note.js"></script> -->
 
     <script>
       // Setup.
-      var expect = chai.expect;
-      mocha.setup("bdd");
+      var assert = chai.assert;
+      mocha.setup("tdd");
 
       // Run tests on window load event
       window.onload = function () {
@@ -35,9 +35,10 @@
   </head>
   <body>
     <div id="mocha"></div>
-    <script src="../static/js/test/spec/hello.spec.js"></script>
-    <!--<script src="../static/js/test/spec/timing.spec.js"></script>-->
+    <!--<script src="../static/js/test/spec/hello.spec.js"></script>
+    <script src="../static/js/test/spec/timing.spec.js"></script>
     <script src="../static/js/test/spec/namespace.spec.js"></script>
-    <script src="../static/js/test/spec/note.spec.js"></script>
+    <script src="../static/js/test/spec/note.spec.js"></script>-->
+    <script src="../static/js/test/spec/bdd.spec.js"></script>
   </body>
 </html>
